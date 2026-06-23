@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Section2 = () => {
     return (
-        <section className="bg-[#F5F1EA] py-24 px-6 md:px-12">
+        <section id="about" className="bg-[#F5F1EA] py-24 px-6 md:px-12">
 
             {/* About Me */}
             <div className="max-w-5xl mx-auto text-center fade-in-up">

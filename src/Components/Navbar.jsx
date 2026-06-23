@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -7,12 +8,16 @@ const Navbar = () => {
             <img src={logo} alt="logo" className='h-10' />
 
             <div className='flex gap-4'>
-                <button>About</button>
+                <a href="#about">
+                    <button>About</button>
+                </a>
                 <button>Projects</button>
-                <button>Contact</button>
+                <Link to="/contacts">
+                    <button>Contacts</button>
+                </Link>
             </div>
         </div>
     )
 }
 
-export default Navbar   
+export default Navbar

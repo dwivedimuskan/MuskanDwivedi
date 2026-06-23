@@ -34,18 +34,24 @@ const Section4 = () => {
                                 <h4 className="font-semibold text-[#251F17]">
                                     Email
                                 </h4>
-                                <p className="text-gray-600">
-                                    muskan@example.com
-                                </p>
+                                <a
+                                    href="mailto:muskand713@gmail.com"
+                                    className="text-gray-600 hover:text-[#251F17] transition-colors"
+                                >
+                                    muskand713@gmail.com
+                                </a>
                             </div>
 
                             <div>
                                 <h4 className="font-semibold text-[#251F17]">
                                     Phone
                                 </h4>
-                                <p className="text-gray-600">
-                                    +91 XXXXX XXXXX
-                                </p>
+                                <a
+                                    href="tel:+919890668214"
+                                    className="text-gray-600 hover:text-[#251F17] transition-colors"
+                                >
+                                    +91 98906 68214
+                                </a>
                             </div>
 
                             <div>
@@ -62,10 +68,10 @@ const Section4 = () => {
                                     LinkedIn
                                 </h4>
                                 <a
-                                    href="https://linkedin.com"
+                                    href="https://www.linkedin.com/in/muskan-dwivedi-736b17262/"
                                     className="text-gray-600 hover:text-[#251F17]"
                                 >
-                                    linkedin.com/in/yourprofile
+                                    linkedin.com/in/muskan-dwivedi-736b17262
                                 </a>
                             </div>
 
@@ -74,10 +80,10 @@ const Section4 = () => {
                                     GitHub
                                 </h4>
                                 <a
-                                    href="https://github.com"
-                                    className="text-gray-600 hover:text-[#251F17]"
+                                    href="https://github.com/dwivedimuskan"
+                                    className="text-gray-600 hover:text-[#251F17] transition-colors"
                                 >
-                                    github.com/yourusername
+                                    github.com/dwivedimuskan
                                 </a>
                             </div>
 
